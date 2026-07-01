@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Walimatul Khitan | RIDWAN</title>
+    <meta name="description" content="Walimatul Khitan RIDWAN">
+    <meta name="keywords" content="Walimatul Khitan, RIDWAN">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/HAG DIGITAL.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =======================================
+            FLOATING FLOWER
+    ======================================== -->
+
+    <div id="flower-container"></div>
+
+    <!-- =======================================
+            BACKGROUND MUSIC
+    ======================================== -->
+
+    <audio id="bgMusic" loop>
+        <source src="music/music gamelan.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- =======================================
+            LOADING SCREEN
+    ======================================== -->
+
+    <div class="loading-screen" id="loadingScreen">
+
+        <div class="loader"></div>
+
+        <p>Loading Invitation...</p>
+
+    </div>
+
+    <!-- =======================================
+            MAIN PAGE
+    ======================================== -->
+
+    <div class="page">
+    <!-- =======================================
+                COVER
+    ======================================== -->
+
+    <section class="cover section" id="cover">
+
+        <!-- Overlay -->
+        <div class="cover-overlay"></div>
+
+        <!-- Background -->
+       
+        <div class="cover-background">
+
+
+             <video autoplay muted playsinline class="bg-video">
+                 <source src="video/bg.mp4" type="video/mp4">
+            </video>
+
+
+        </div>
+
+        <!-- Content -->
+        <div class="cover-content">
+            
+            <p class="cover-subtitle">
+               UNDANGAN
+            </p>
+            <p class="cover-subtitle">
+                Walimatul Khitan
+            </p>
+
+            <h1 class="cover-title">
+                
+                <span>RIDWAN</span>
+               
+            </h1>
+
+            <p class="cover-date">
+                05 JULI 2026
+            </p>
+
+            <div class="guest-box">
+
+                <small>Kepada Yth.</small>
+
+                <h3 id="guestName">
+                    Tamu Undangan
+                </h3>
+
+            </div>
+
+            <button
+                class="btn-open"
+                id="openInvitation">
+
+                Buka Undangan
+
+            </button>
+
+        </div>
+
+        <!-- Scroll Indicator -->
+
+        <div class="scroll-indicator">
+
+            <span></span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =======================================
+                MAIN CONTENT
+    ======================================== -->
+
+    <main id="mainContent" class="hidden">
+        <!-- =======================================
+                    HERO
+        ======================================== -->
+
+        <section class="hero section" id="hero">
+        
+
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="video/bg1.mp4" type="video/mp4">
+        </video>
+
+            <div class="container">
+                
+
+                <div class="hero-image hero-img">
+
+                    <img src="img/foto1.jpeg" alt="Utari & Fajar">
+
+                </div>
+
+                <div class="hero-text hero-text-content">
+
+                    <span class="section-subtitle">
+                        Walimatul Khitan
+                    </span>
+
+                    <h1 class="hero-title">
+
+                      
+                        <span>RIDWAN</span>
+                        
+
+                    </h1>
+
+                    <p class="hero-date">
+
+                        Minggu, 05 JULI 2026
+
+                    </p>
+
+                    <p class="hero-time">
+
+                        Pukul 08.00 WIB s/d Selesai
+
+                    </p>
+
+                </div>
+
+                <div class="hero-button hero-btn">
+
+                    <button class="btn-primary" id="saveDate">
+
+                        Save The Date
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =======================================
+                    VERSE
+        ======================================== -->
+
+        <section class="verse section" id="verse">
+
+            <div class="container">
+
+                <div class="verse-content">
+
+                    <span class="section-subtitle">
+
+                     Rasulullah Saw bersabda: 
+
+                    </span>
+
+                    <p class="verse-translate">
+                        "Sunah kebersihan/kesucian ada lima,
+                        yaitu berkhitan, memotong kuku, 
+                        merapikan kumis, mencabut bulu ketiak, 
+                        dan mencukur bulu kemaluan (H.R. Bukhari dan Muslim)."
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =======================================
+                    WELCOME
+        ======================================== -->
+
+        <section class="welcome section" id="welcome">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+
+                    Ya Allah
+
+                </span>
+
+                <p class="section-description">
+
+                    ini adalah sunnah-Mu dan sunnah nabi-Mu.
+                    Semoga rahmat tercurah padanya dan keluarganya.
+                    Dan kami mengikuti nabi-Mu dengan kehendak-Mu dan 
+                    qadha-Mu. Karena suatu hal yang Engkau inginkan.
+                    Karena suatu hal ketentuan yang Engkau tetapkan.
+                    Karena suatu perkara yang Engkau laksanakan, dan
+                    Engkau merasakan padanya panasnya besi dalam khitan 
+                    dan bekamnya karena suatu perkara yang Engkau lebih tahu dari aku."
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================
+                    WELCOME
+        ======================================== -->
+
+        <section class="welcomee section" id="welcomee">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+
+                    Assalamu'alaikum Wr. Wb.
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Dengan memohon rahmat dan ridho Allah SWT,
+                    kami mengundang Bapak / Ibu / Saudara(i)
+                    untuk hadir dalam acara Walimatul Khitan.
+
+                </h2>
+
+                <p class="section-description">
+
+                    Merupakan suatu kehormatan bagi kami
+                    apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do'a.
+                    Kami yang berbahagia,
+                    Kel. Bapak Haryanto & Ibu Lina (Ibu Irwan)
+  
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================
+                    WELCOME
+        ======================================== -->
+
+        <section class="welcomeee section" id="welcomeee">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+
+                    Turut Mengundang:
+
+                </span>
+
+
+                <p class="section-description">
+
+                <ol>
+                    <li>Bapak Obing (Ketua Rt 04/Rw 06)</li>
+                    <li>Bapak Sugiyanto (Ketua Paguyuban MIM)</li>
+                    <li>Bapak Budiman (Wakil Ketua MIM)</li>
+                    <li>Bapak Isa Dermawan</li>
+                    <li>Bapak Moh. Haryadi (Ketua Rt Villa Permata)</li>
+                    <li>Bapak Johron MIM</li>
+                    <li>Bapak Maksum MIM</li>
+                    <li>Bapak Murdianto MIM</li>
+                    <li>Ibu Yuly Properti</li>
+                    <li>Bapak Dayat (Ketua Rt Kukun)</li>
+                    <li>Bapak Tarno MIM</li>
+                    <li>Bapak Dian Febrianto (Sekretaris MIM)</li>
+                    <li>Bapak Iguh Prabowo (Sekretaris MIM)</li>
+                </ol>
+                </p>
+
+            </div>
+
+        </section>
+
+ 
+        <!-- =======================================
+                    COUNTDOWN
+        ======================================== -->
+
+        <section class="countdown section" id="countdown">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+
+                    Save The Date
+
+                </span>
+
+
+                <p class="section-description">
+
+                    Dengan memohon Rahmat & Ridho Allah SWT,
+                    kami bermaksud menyelenggarakan Walimatul 
+                    Khitan anak kami yang Insya Allah akan dilaksanakan pada:
+
+                </p>
+
+                <div class="countdown-box">
+
+                    <div class="countdown-item">
+
+                        <h1 id="days">0</h1>
+
+                        <span>Hari</span>
+
+                    </div>
+
+                    <div class="countdown-item">
+
+                        <h1 id="hours">0</h1>
+
+                        <span>Jam</span>
+
+                    </div>
+
+                    <div class="countdown-item">
+
+                        <h1 id="minutes">0</h1>
+
+                        <span>Menit</span>
+
+                    </div>
+
+                    <div class="countdown-item">
+
+                        <h1 id="seconds">0</h1>
+
+                        <span>Detik</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =======================================
+                    EVENT
+        ======================================== -->
+
+        <section class="event section" id="event">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+
+                  Event
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Akan Dilaksanakan Pada
+
+                </h2>
+
+                <div class="event-wrapper">
+
+                    <div class="event-card">
+
+
+                        <p>
+
+                            📅 Minggu, 05 JULI 2026
+
+                        </p>
+
+                        <p>
+
+                            🕐 08.00 WIB s/d Selesai
+
+                        </p>
+
+                        <p>
+
+                        Mega Ilham Mandiri, 
+                        Sukamanah, Blok D9 Rt 04/06 Daon, 
+                        Rajeg, Kab Tangerang
+
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="maps-button">
+
+                    <a href="https://goo.gl/maps/s5jwcvmkK849e9NC8"
+                        target="_blank"
+                        class="btn-primary">
+
+                        Lihat Lokasi
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+ 
+
+        <!-- =======================================
+                    LOCATION
+        ======================================== -->
+
+        <section class="location section" id="location">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+                    Location
+                </span>
+
+                <h2 class="section-title">
+                    Lokasi Acara
+                </h2>
+
+                <p class="section-description">
+                    Klik peta di bawah atau tombol lokasi untuk menuju Google Maps.
+                </p>
+
+                <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3967
+                .079717372367!2d106.51300807498954!3d-6.119971993866668!2m3!1f0!2f0!3f0!
+                3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDcnMTEuOSJTIDEwNsKwMzAnNTYuMSJF!5
+                e0!3m2!1sid!2sid!4v1782938143389!5m2!1sid!2sid" width="400" height="300"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict
+                 -origin-when-cross-origin">
+                </iframe>
+                </div>
+
+                <a class="btn-primary"
+                   href="https://goo.gl/maps/s5jwcvmkK849e9NC8"
+                   target="_blank">
+
+                    Buka Google Maps
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =======================================
+                    RSVP
+        ======================================== -->
+
+        <section class="rsvp section" id="rsvp">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+                    RSVP
+                </span>
+
+                <h2 class="section-title">
+
+                    Konfirmasi Kehadiran
+
+                </h2>
+
+                <form id="rsvpForm">
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Nama Lengkap"
+                        required>
+
+                    <select id="attendance">
+
+                        <option value="Hadir">
+
+                            Hadir
+
+                        </option>
+
+                        <option value="Tidak Hadir">
+
+                            Tidak Hadir
+
+                        </option>
+
+                    </select>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Tulis doa dan ucapan..."
+                        required></textarea>
+
+                    <button
+                        type="submit"
+                        class="btn-primary">
+
+                        Kirim Ucapan
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =======================================
+                    WISHES
+        ======================================== -->
+
+        <section class="wishes section" id="wishes">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+                    Wishes
+                </span>
+
+                <h2 class="section-title">
+
+                    Ucapan Terbaru
+
+                </h2>
+
+                <div id="commentList">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================
+                    FOOTER
+        ======================================== -->
+       <section class="welcomeeee section" id="welcomeeee">
+
+            <div class="container">
+
+                <span class="section-subtitle">
+
+                   Doa dan Harapan
+
+                </span>
+
+                <p class="section-description">
+
+                        Semoga setelah berkhitan putra kami menjadi anak yang sholeh,
+                        berbakti kepada kedua orang tua, agama, masyarakat, bangsa,
+                        dan negara. Amiin ya Robbal'alamin. Kami ucapkan mohon maaf apabila ada kesalahan 
+                        dalam penulisan nama & gelar, Terima kasih atas doa dan kehadiranya. 
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =======================================
+                    FOOTER
+        ======================================== -->
+
+        <footer class="footer">
+
+            <div class="container">
+
+
+                <div class="footer-brand">
+                    <p class="footer-text">
+                        Created ❤️ by <b>HAG DIGITAL</b>
+                    </p>
+                    
+                </div>
+                <div class="footer-brand">
+
+                    <a href="https://lynk.id/heyakiragroup" target="_blank">
+                        <img src="img/HAG DIGITAL.png" alt="HAG DIGITAL Logo" class="footer-logo">
+                    </a>
+                    
+                    <a href="https://wa.me/6285129965012?text=Hallo%20Kak%20HAG%20DIGITAL,%20Boleh%20Minta%20Info%20Detailnya%3F" target="_blank">
+                        <img src="img/LOGOWA.png" alt="WA Logo" class="footer-logo">
+                    </a>
+                </div>
+
+                <button
+                    class="music-button"
+                    id="musicButton">
+
+                    🎵
+
+                </button>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+</div>
+
+
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img src="" id="lightboxImage" alt="Gallery">
+
+</div>
+
+<!-- JAVASCRIPT -->
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
