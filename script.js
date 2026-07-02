@@ -236,12 +236,12 @@ if (saveDateBtn) {
 
     saveDateBtn.addEventListener("click", () => {
 
-        const title = "Pernikahan Utari & Fajar";
+        const title = "Walimatul Khitan Ridwan";
         const location = "RUMAH KELUARGA BAPAK HARYANTO";
-        const details = "Kami mengundang Anda untuk menghadiri pernikahan Utari & Fajar.";
+        const details = "Kami mengundang Anda untuk menghadiri Walimatul Khitan.";
 
-        const start = "20260705T020000Z";
-        const end = "20260705T050000Z";
+        const start = "20260705T080000Z";
+        const end = "20260705T000000Z";
 
         const googleCalendarUrl =
             `https://calendar.google.com/calendar/render?action=TEMPLATE` +
